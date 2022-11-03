@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Red+Hat+Display:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+body{
+  background-image: url("https://media1.giphy.com/media/W04QVzelTHsNW/200w.gif?cid=82a1493bcrhyyk8le9zw642wbvrz81u78r2wg7gzejpyx95t&rid=200w.gif&ct=g");
+  background-size:cover;
+
+  
+}
+
+
+.pokemon input{
+  text-align: center;
+  margin: 1rem 0;
+  border: none;
+  box-shadow: 2px 2px 10px 5px black;
+  color: white;
+  background: linear-gradient(black,red);
+width: 4rem;
+}
+.pokemon{
+  padding: 1rem;
+background: linear-gradient(rgb(99, 2, 2),rgb(243, 107, 107));
+  display: flex;
+  width: 100%;
+  max-width: 25rem;
+  align-items:center;
+  justify-content: space-around; 
+  font-weight: 900;
+  color: rgb(235, 235, 235);
+  border-radius: 10%;
+  border-bottom: 4px solid;
+  border-left: 4px black solid;
+  border-right: 4px black solid;
+ border-top: 4px solid red;
+  box-shadow: 2px 2px 6px 2px rgb(80, 60, 67);
+  text-align: center;
+  margin: auto;
+  margin-top: 7rem;
+  
+}
+.pokemon img{
+  width: 10rem;
+}
+.colum-objetos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.colum-objetos p{
+margin:.3rem 0 ;
+}
+.colum-objetos button{
+  margin-top: 1rem;
+  border: none;
+  background: linear-gradient(rgb(250, 247, 247),rgb(253, 17, 0));
+  border: 2px solid black;
+  max-width: 5rem;
+  color: aliceblue;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 8%;
+  transition: transform 1s;
+}
+.colum-objetos button:hover{
+  transform: scale(1.5);
+}
