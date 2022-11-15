@@ -9,8 +9,6 @@
 body{
   background-image: url("https://media1.giphy.com/media/W04QVzelTHsNW/200w.gif?cid=82a1493bcrhyyk8le9zw642wbvrz81u78r2wg7gzejpyx95t&rid=200w.gif&ct=g");
   background-size:cover;
-
-  
 }
 
 
@@ -21,11 +19,11 @@ body{
   box-shadow: 2px 2px 10px 5px black;
   color: white;
   background: linear-gradient(black,red);
-width: 4rem;
+  width: 4rem;
 }
 .pokemon{
   padding: 1rem;
-background: linear-gradient(rgb(99, 2, 2),rgb(243, 107, 107));
+  background: linear-gradient(rgb(99, 2, 2),rgb(243, 107, 107));
   display: flex;
   width: 100%;
   max-width: 25rem;
@@ -34,10 +32,10 @@ background: linear-gradient(rgb(99, 2, 2),rgb(243, 107, 107));
   font-weight: 900;
   color: rgb(235, 235, 235);
   border-radius: 10%;
-  border-bottom: 4px solid;
-  border-left: 4px black solid;
-  border-right: 4px black solid;
- border-top: 4px solid red;
+  border-bottom: 40px solid;
+  border-left: 20px black solid;
+  border-right: 20px black solid;
+ border-top: 40px solid red;
   box-shadow: 2px 2px 6px 2px rgb(80, 60, 67);
   text-align: center;
   margin: auto;
@@ -52,6 +50,9 @@ background: linear-gradient(rgb(99, 2, 2),rgb(243, 107, 107));
   flex-direction: column;
   align-items: center;
   
+}
+.buscador{
+border-top: 2px solid;
 }
 .colum-objetos p{
 margin:.3rem 0 ;

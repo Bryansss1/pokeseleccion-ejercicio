@@ -65,7 +65,7 @@ const backzzz=(poke)=>{
             <p>height: {isDecimeters?poke.height+" Decimeters":poke.height/10+" Meter"}</p>
             <small>Tipo:{poke.types?.[0].type.name} {poke.types?.[1]?.type.name}</small>
             <button onClick={()=>setDecimeters(!isDecimeters)}>Meters/Kg</button>
-            <button onClick={()=>setId(Math.floor(Math.random()*600))}>Cambiar Poke:3</button>
+            <button  onClick={()=>setId(Math.floor(Math.random()*600))}>Cambiar Poke:3</button>
            <div className='buscador'>
              <small>procurar poner numeros ya que son por id,en total son 906ID</small>
             <p>Buscador de Id</p>
